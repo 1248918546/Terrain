@@ -1,0 +1,15 @@
+﻿  NormalsGenerator.cpp
+c:\users\张瑾\desktop\game\game\normalsgenerator.cpp(5): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\张瑾\desktop\game\game\normalsgenerator.cpp(6): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\张瑾\desktop\game\game\normalsgenerator.cpp(26): warning C4018: “>=”: 有符号/无符号不匹配
+c:\users\张瑾\desktop\game\game\normalsgenerator.cpp(27): warning C4018: “>=”: 有符号/无符号不匹配
+  main.cpp
+c:\users\张瑾\desktop\game\game\main.cpp(18): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+c:\users\张瑾\desktop\game\game\main.cpp(41): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\张瑾\desktop\game\game\main.cpp(48): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\张瑾\desktop\game\game\main.cpp(49): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\张瑾\desktop\game\game\main.cpp(51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\张瑾\desktop\game\game\main.cpp(52): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\张瑾\desktop\game\game\main.cpp(101): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  Game.vcxproj -> C:\Users\张瑾\Desktop\Game\Debug\Game.exe

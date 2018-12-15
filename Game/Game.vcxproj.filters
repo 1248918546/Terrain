@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\World">
+      <UniqueIdentifier>{f517e757-792e-43a3-b921-7543123cce7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\World">
+      <UniqueIdentifier>{fd9d81a9-186d-45c5-97bb-7b11d05d827e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Vector">
+      <UniqueIdentifier>{ba53f42b-b941-4473-8679-fe3f5298d370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Vector">
+      <UniqueIdentifier>{49857510-27fa-4373-a19d-9bd9123693f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\toolbox">
+      <UniqueIdentifier>{f6fc9cd3-203e-4b95-9985-6c98552797e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\toolbox">
+      <UniqueIdentifier>{f939d2d9-5d29-4826-bc97-9da6f47955fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\World\world">
+      <UniqueIdentifier>{c8be025f-bf48-42aa-93be-9499049557b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\World\terrains">
+      <UniqueIdentifier>{7eaf1150-cd94-4e5c-94b5-c72dd7984626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\World\generation">
+      <UniqueIdentifier>{6b7bd8a4-0e05-4a26-be1e-3791201ff5fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\World\world">
+      <UniqueIdentifier>{240217d8-ae66-480b-b94e-364cad25f0b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\World\terrains">
+      <UniqueIdentifier>{42f04e37-823f-4e97-a560-421de4384808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\World\generation">
+      <UniqueIdentifier>{96af4ac9-2d77-48d0-a209-d1121c8c7faf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fileutils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="indexBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vertexArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>头文件\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>头文件\toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths.h">
+      <Filter>头文件\toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>头文件\World\world</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldConfigs.h">
+      <Filter>头文件\World\world</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalsGenerator.h">
+      <Filter>头文件\World\generation</Filter>
+    </ClInclude>
+    <ClInclude Include="PerlinNoiseGenerator.h">
+      <Filter>头文件\World\generation</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>头文件\World\terrains</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorGenerator.h">
+      <Filter>头文件\World\generation</Filter>
+    </ClInclude>
+    <ClInclude Include="GridGenerator.h">
+      <Filter>头文件\World\generation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="vertexArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="buffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="indexBuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>源文件\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>源文件\toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths.cpp">
+      <Filter>源文件\toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="PerlinNoiseGenerator.cpp">
+      <Filter>源文件\World\generation</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalsGenerator.cpp">
+      <Filter>源文件\World\generation</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldConfigs.cpp">
+      <Filter>源文件\World\world</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>源文件\World\world</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>源文件\World\terrains</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorGenerator.cpp">
+      <Filter>源文件\World\generation</Filter>
+    </ClCompile>
+    <ClCompile Include="GridGenerator.cpp">
+      <Filter>源文件\World\generation</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
